@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Ban Hammer</string>
+    <string name="app_name">BanHammer</string>
+    <string name="home">Home</string>
+    <string name="config">config</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="side_menu_players.title">Players</string>
+    <string name="side_menu_players.kick">Kick</string>
+    <string name="side_menu_players.ban">Banish</string>
+    <string name="side_menu_players.whisper">Whisper</string>
+    <string name="side_menu_players.message">Message</string>
+
+
+
 </resources>

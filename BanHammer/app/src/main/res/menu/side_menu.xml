@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/players"
+            android:title="@string/side_menu_players.title">
+            <menu>
+                <item
+                    android:id="@+id/drawer_message"
+                    android:icon="@mipmap/ic_message"
+                    android:title="@string/side_menu_players.message"/>
+
+                <item
+                    android:id="@+id/drawer_whisper"
+                    android:icon="@mipmap/ic_whisper"
+                    android:title="@string/side_menu_players.whisper"/>
+
+                <item
+                    android:id="@+id/drawer_kick"
+                    android:icon="@mipmap/ic_kick"
+                    android:title="@string/side_menu_players.kick"/>
+
+                <item
+                    android:id="@+id/drawer_ban"
+                    android:icon="@mipmap/ic_ban"
+                    android:title="@string/side_menu_players.ban"/>
+            </menu>
+        </item>
+
+        <item android:title="SERVER">
+
+            <menu>
+                <item
+                    android:id="@+id/drawer_four"
+                    android:icon="@drawable/ic_config"
+                    android:title="quarta"/>
+
+                <item
+                    android:id="@+id/drawer_five"
+                    android:icon="@drawable/ic_config"
+                    android:title="quinta"/>
+            </menu>
+        </item>
+    </group>
+</menu>
